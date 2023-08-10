@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Asistentes</title>
+  <script src="/js/registroDeInvitados.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/registroDeAsistentes.css">
+  <!-- Agrega enlaces a tus hojas de estilo y scripts aquí -->
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Agregar Asistentes al Evento</h1>
+    <!-- Formulario que recibe los datos para agregar asistentes al evento registrado -->
+    <form id="addAttendeesForm">
+      <label for="nombreAsistente">Nombre de la Persona o Familia:</label>
+      <input type="text" id="nombreAsistente" required>
+      
+      <label for="cantidadPersonas">Cantidad de Personas:</label>
+      <input type="number" id="cantidadPersonas" required>
+      
+      <label for="observaciones">Observaciones:</label>
+      <textarea id="observaciones"></textarea>
+      
+      <button type="submit">Agregar Asistente</button>
+    </form>
+
+    <!-- Mostrar tabla con los asistentes ingresados -->
+    <h2>Lista de Asistentes</h2>
+    <table id="tablaAsistentes">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Cantidad de Personas</th>
+          <th>Observaciones</th>
+          <th>Confirmar</th>
+          <th>Editar</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aquí se agregarán las filas de asistentes -->
+      </tbody>
+    </table>
+
+    <!-- Pendiente agregar redireccionar a la página donde se ven los eventos registrados -->
+    <a href="index.html">Regresar a la página principal</a>
+  </div>
+
+  <!-- Agrega enlaces a tus archivos de JavaScript aquí -->
+</body>
+</html>

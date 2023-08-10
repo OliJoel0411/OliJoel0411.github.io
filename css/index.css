@@ -1,0 +1,42 @@
+/* Estilos para la página de Registro de Eventos */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Celeste claro */
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .boton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #b0e0e6; /* Color celeste claro */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #0b76a1; /* Color celeste claro más oscuro */
+  }
+  
+  

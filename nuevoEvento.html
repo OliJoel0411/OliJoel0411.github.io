@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Eventos</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/registroDeEventos.js"></script>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Crear Nuevo Evento</h1>
+    <!-- Formulario para registrar los datos asociados a la creacion de un evento -->
+        <form id="newEventForm">
+
+            <label for="responsable">Nombre del Responsable:</label>
+            <input type="text" id="responsable" required>
+        
+            <label for="password">Contraseña del Responsable:</label>
+            <input type="password" id="password" required>
+        
+            <label for="correo">Correo del Responsable:</label>
+            <input type="email" id="correo" required>
+        
+            <label for="nombreEvento">Nombre del Evento:</label>
+            <input type="text" id="nombreEvento" required>
+        
+            <label for="fechaEvento">Fecha del Evento:</label>
+            <input type="date" id="fechaEvento" required>
+        
+            <label for="cantidadInvitados">Cantidad de Invitados:</label>
+            <input type="number" id="cantidadInvitados" required>
+        
+            <button type="submit">Crear Evento</button>
+           
+        </form>
+        
+        
+    </div>
+    <!-- De validarse el formulario, mostrara un mensaje de registro exitoso-->
+    <div id="registroExitoso" style="display: none;">Registro Exitoso</div>
+
+    <a href="index.html">Regresar a la pagina anterior</a>
+</body>
+</html>

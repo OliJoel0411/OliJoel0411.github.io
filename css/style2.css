@@ -1,0 +1,35 @@
+/* Estilo para el fondo de pantalla */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Celeste claro */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para el contenedor principal */
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para los botones */
+  .boton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #87ceeb; /* Celeste claro */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #6ca6cd; /* Celeste un poco más oscuro al pasar el cursor */
+  }
+  

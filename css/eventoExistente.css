@@ -1,0 +1,31 @@
+/* Agrega estilos para centrar la tabla */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Celeste claro */
+  font-family: Arial, sans-serif;
+}
+
+#tablaEventos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  #tablaEventos th, #tablaEventos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #tablaEventos th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para el botón de redirección */
+  #btnRegistrarInvitados {
+    margin-top: 10px;
+  }
+  
